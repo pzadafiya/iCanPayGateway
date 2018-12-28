@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace NLFSG.BLL.Helper
+namespace BLL.Helper
 {
     public class iCanPayWrapper
     {
