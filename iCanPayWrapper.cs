@@ -1,4 +1,4 @@
-﻿using NLFSG.Common.Utils;
+
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -22,7 +22,7 @@ namespace NLFSG.BLL.Helper
         private static Dictionary<string, string> _PARAMS = null;
         private static String _API_TYPE = null;
 
-        public iCanPayPaymentHelper(String secretKey, Dictionary<string, string> param, String type) 
+        public iCanPayWrapper(String secretKey, Dictionary<string, string> param, String type) 
         {
             _API_URL = "https://pay.icanpay.cn.com/pay/authorize_payment";
             _3DSv_API_URL = "https://pay.icanpay.cn.com/pay/authorize3dsv_payment";
